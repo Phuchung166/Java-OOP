@@ -1,0 +1,448 @@
+@font-face {
+    font-family: 'NotoSansJP';
+    src: url('/fonts/NotoSansJP-VariableFont_wght.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/fonts/OpenSans-VariableFont_wdth,wght.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+ body {
+    margin: 0;
+    font-family: 'NotoSansJP', sans-serif;
+    /* font-family: 'OpenSans', sans-serif; */
+    overflow: hidden;
+}
+
+#windy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.controls-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    pointer-events: auto;
+    transition: transform 0.3s ease;
+}
+
+.controls-container.hidden {
+    transform: translateX(-340px);
+}
+
+.toggle-button {
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    z-index: 1000;
+}
+
+.toggle-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-button.hidden {
+    background-color: #28a745;
+}
+
+.toggle-button .hamburger {
+    width: 20px;
+    height: 16px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.toggle-button .hamburger span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: white;
+    border-radius: 2px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.toggle-button .hamburger span:nth-child(1) {
+    top: 0px;
+}
+
+.toggle-button .hamburger span:nth-child(2) {
+    top: 7px;
+}
+
+.toggle-button .hamburger span:nth-child(3) {
+    top: 14px;
+}
+
+.controls-container.hidden .toggle-button .hamburger span:nth-child(1) {
+    top: 7px;
+    transform: rotate(135deg);
+}
+
+.controls-container.hidden .toggle-button .hamburger span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+
+.controls-container.hidden .toggle-button .hamburger span:nth-child(3) {
+    top: 7px;
+    transform: rotate(-135deg);
+}
+
+.toggle-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    z-index: -1;
+}
+
+.toggle-button:active {
+    transform: scale(0.95);
+}
+
+.sidebar {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sidebar h1 {
+    font-size: 20px;
+    font-family: 'OpenSans', sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 0 15px 0;
+}
+
+.sidebar-content {
+    max-height: calc(300px - 60px - 40px);
+    overflow-y: auto;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.legend {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.collapsible-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.collapsible-header h2 {
+    font-size: 16px;
+    margin: 0;
+    color: #000000;
+    font-weight: bold;
+}
+
+.collapsible-header .arrow {
+    margin-right: 10px;
+    font-size: 16px;
+    transition: transform 0.3s;
+}
+
+.collapsible-header img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+    transition: transform 0.3s;
+}
+
+.sidebar label {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    gap: 8px;
+}
+
+.sidebar input[type="checkbox"] {
+    margin: 0;
+}
+
+.legend h3 {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+.legend .item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.legend .color-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.color-red { background-color: red; }
+.color-purple { background-color: purple; }
+.color-yellow { background-color: yellow; }
+.color-green { background-color: green; }
+.color-blue { background-color: blue; }
+.color-black { background-color: black; }
+
+.collapsible-content {
+    display: none;
+    margin-left: 20px;
+    color:#000000;
+    font-weight: 550;
+}
+
+.collapsible-header.active img {
+    transform: rotate(90deg);
+}
+
+.collapsible-header.active .arrow {
+    transform: rotate(90deg);
+}
+
+.sidebar-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.sidebar-content::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.sidebar-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+ul.sidebar-content, ul.collapsible-content {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.huyen-label {
+    background: transparent;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    pointer-events: none;
+}
+
+.checkbox-group {
+    margin-bottom: 10px;
+}
+
+.checkbox-group .checkbox-nested {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+#submit-button {
+    width: calc(100% - 20px);
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px 10px;
+    font-family: 'NotoSansJP', sans-serif;
+    display: block;
+    position: sticky;
+    bottom: 0;
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#submit-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#submit-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+ 
+.leaflet-glyph-icon {
+    background-color: transparent !important;
+}
+
+.type-icon-6 {
+    background-image: url('/images/legends/6.png');
+    background-color: transparent !important;
+
+}
+
+.type-icon-65 {
+    background-image: url('/images/legends/65.png');
+    background-color: transparent !important;
+
+}
+
+.type-icon-66 {
+    background-image: url('/images/legends/66.png');
+    background-color: transparent !important;
+
+}
+
+.type-icon-7 {
+    background-image: url('/images/legends/7.png');
+    background-color: transparent !important;
+
+}
+
+.type-icon-8 {
+    background-image: url('/images/legends/8.png');
+    background-color: transparent !important;
+
+}
+
+.type-icon-86 {
+    background-image: url('/images/legends/86.png');
+    background-color: transparent !important;
+
+}
+
+.type-icon-88 {
+    background-image: url('/images/legends/88.png');
+    background-color: transparent !important;
+
+}
+
+.type-icon-9 {
+    background-image: url('/images/legends/9.png');
+    background-color: transparent !important;
+
+}
+
+.type-icon-94 {
+    background-image: url('/images/legends/94.png');
+    background-color: transparent !important;
+
+}
+
+.custom-popup .leaflet-popup-content{
+    margin: 8px;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+    padding: 0;
+    overflow: hidden;
+}
+
+.custom-popup img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.map-toggle {
+    position: fixed;
+    right: 20px;
+    top: 80px;
+    z-index: 999;
+    background: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    font-weight: 500;
+}
+
+.map-toggle:hover {
+    background: #f0f0f0;
+}
+
+.map-toggle i {
+    font-size: 18px;
+}
+
+.windy-logo,
+.leaflet-control-attribution,
+#logo,
+#bottom,
+.leaflet-bottom {
+    display: none !important;
+}

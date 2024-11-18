@@ -1,0 +1,235 @@
+{
+  "list_result": [
+    {
+      "city": "221",
+      "type": "BS",
+      "type_struct": "6",
+      "list_minifeature": [
+        {
+          "feature": {
+            "geometry": {
+              "coordinates": [
+                [11819054.6673913, 2443393.37634722],
+                [11819064.4391771, 2443314.11636547]
+              ]
+            },
+            "properties": {
+              "id": "1818",
+              "tennhan": "Kè chống sạt lở bờ sông Hữu Sỏi, thôn Yên Cư, xã Tân Sỏi, huyện Yên Thế.",
+              "tacdong": null,
+              "chieudai": 50,
+              "lat": null,
+              "lon": null,
+              "thoigian": "",
+              "giaiphap": "Kè hộ bờ",
+              "huyenref": "Yên Thế",
+              "xaref": "Tân Sỏi",
+              "thuocsong": "Sỏi",
+              "length": 79.8600807958963,
+              "sodoan": 1
+            }
+          }
+        },
+        {
+          "feature": {
+            "geometry": {
+              "coordinates": [
+                [11819380.0812094, 2444663.54473023],
+                [11819406.9536021, 2444692.58863195]
+              ]
+            },
+            "properties": {
+              "id": "1820",
+              "tennhan": "Kè chống sạt lở bờ sông Hữu Sỏi, thôn Cầu, xã Tân Sỏi, huyện Yên Thế.",
+              "tacdong": null,
+              "chieudai": 28,
+              "lat": null,
+              "lon": null,
+              "thoigian": "",
+              "giaiphap": "Kè hộ bờ",
+              "huyenref": "Yên Thế",
+              "xaref": "Tân Sỏi",
+              "thuocsong": "Sỏi",
+              "length": 39.5685950786954,
+              "sodoan": 1
+            }
+          }
+        },
+        {
+          "feature": {
+            "geometry": {
+              "coordinates": [
+                [11822039.9187163, 2444557.73808462],
+                [11822109.406915, 2444530.05137486],
+                [11822191.3812716, 2444486.62125012]
+              ]
+            },
+            "properties": {
+              "id": "1817",
+              "tennhan": "Kè chống sạt lở bờ sông Hữu Thương thôn Dinh Tiến, xã Bố Hạ, huyện Yên Thế",
+              "tacdong": null,
+              "chieudai": 200,
+              "lat": null,
+              "lon": null,
+              "thoigian": "",
+              "giaiphap": "Kè hộ bờ",
+              "huyenref": "Yên Thế",
+              "xaref": "Bố Hạ",
+              "thuocsong": "Sông Thương",
+              "length": 167.569198741831,
+              "sodoan": 1
+            }
+          }
+        },
+        {
+          "feature": {
+            "geometry": {
+              "coordinates": [
+                [11826318.0442695, 2415846.07995155],
+                [11826375.589198, 2415856.93748729],
+                [11826414.4048764, 2415868.60933547],
+                [11826448.8775369, 2415875.93816572],
+                [11826477.6500012, 2415873.76666586],
+                [11826514.2941624, 2415868.88077283],
+                [11826585.1395731, 2415851.78015677],
+                [11826625.5838764, 2415845.53707645],
+                [11826664.1281153, 2415854.4945393],
+                [11826689.6433115, 2415867.25214653],
+                [11826715.9728219, 2415882.18124801],
+                [11826792.5184288, 2415934.56884612],
+                [11826838.934375, 2415967.14143511],
+                [11826874.4927854, 2415983.97061369],
+                [11826902.9938213, 2415995.37102439],
+                [11826907.6014899, 2415997.48823966]
+              ]
+            },
+            "properties": {
+              "id": "1805",
+              "tennhan": "Xử lý khẩn cấp kênh Nham Biền huyện Yên Dũng, tỉnh Bắc Giang (đoạn qua khu đô thị mới tiểu khu 2, tiểu khu 3, thị trấn Neo)",
+              "tacdong": null,
+              "chieudai": 559,
+              "lat": null,
+              "lon": null,
+              "thoigian": "",
+              "giaiphap": "Kè hộ bờ",
+              "huyenref": "Yên Dũng",
+              "xaref": "Neo",
+              "thuocsong": "Kênh Nham Biền",
+              "length": 636.895687419736,
+              "sodoan": 1
+            }
+          }
+        },
+        {
+          "feature": {
+            "geometry": {
+              "coordinates": [
+                [11823089.8421054, 2444819.94748881],
+                [11823067.5841042, 2444799.31817637]
+              ]
+            },
+            "properties": {
+              "id": "1822",
+              "tennhan": "Kè bờ sông Hữu Thương, thôn Vòng Huyện, xã Bố Hạ, huyện Yên Thế",
+              "tacdong": null,
+              "chieudai": 20,
+              "lat": null,
+              "lon": null,
+              "thoigian": "",
+              "giaiphap": "Kè hộ bờ",
+              "huyenref": "Yên Thế",
+              "xaref": "Bố Hạ",
+              "thuocsong": "Sông Thương",
+              "length": 30.347770084705,
+              "sodoan": 1
+            }
+          }
+        },
+        {
+          "feature": {
+            "geometry": {
+              "coordinates": [
+                [11826920.0944394, 2415998.8997258],
+                [11826987.1396889, 2416011.11444895],
+                [11827078.6144087, 2416033.6438204],
+                [11827182.3038366, 2416058.61615197],
+                [11827285.1789523, 2416084.67422828],
+                [11827328.3376487, 2416096.88895143],
+                [11827402.9831798, 2416142.21913787],
+                [11827419.5409118, 2416153.89099517],
+                [11827426.5983046, 2416171.5344862]
+              ]
+            },
+            "properties": {
+              "id": "1807",
+              "tennhan": "Xử lý khẩn cấp kênh Nham Biền huyện Yên Dũng, tỉnh Bắc Giang(đoạn qua tiểu khu 2, tiểu khu 3 thị trấn Neo)",
+              "tacdong": null,
+              "chieudai": 524,
+              "lat": null,
+              "lon": null,
+              "thoigian": "",
+              "giaiphap": "Kè hộ bờ",
+              "huyenref": "Yên Dũng",
+              "xaref": "Thị trấn Neo",
+              "thuocsong": "Kênh Nham Biền",
+              "length": 546.581404510388,
+              "sodoan": 1
+            }
+          }
+        },
+        {
+          "feature": {
+            "geometry": {
+              "coordinates": [
+                [11804503.3620283, 2417361.4657225],
+                [11804497.225525, 2417311.16630802],
+                [11804497.0762339, 2417282.80100456],
+                [11804500.9190818, 2417261.30499539]
+              ]
+            },
+            "properties": {
+              "id": "1812",
+              "tennhan": "Kè Vân Hà, tả sông Cầu, tuyến đê bối Vân Hà - Tiên Sơn",
+              "tacdong": null,
+              "chieudai": 106,
+              "lat": null,
+              "lon": null,
+              "thoigian": "",
+              "giaiphap": "Kè hộ bờ",
+              "huyenref": "Việt Yên",
+              "xaref": "Vân Hà",
+              "thuocsong": "Sông Cầu",
+              "length": 100.874854671468,
+              "sodoan": 1
+            }
+          }
+        },
+        {
+          "feature": {
+            "geometry": {
+              "coordinates": [
+                [11824833.0053132, 2415980.11618862],
+                [11825392.9825396, 2415808.29574085]
+              ]
+            },
+            "properties": {
+              "id": "1809",
+              "tennhan": "Xử lý khẩn cấp kênh Nham Biền thuộc địa phận xã Nham Sơn và xã Yên Lư, huyện Yên Dũng, tỉnh Bắc Giang.",
+              "tacdong": null,
+              "chieudai": 100,
+              "lat": null,
+              "lon": null,
+              "thoigian": "",
+              "giaiphap": "Kè hộ bờ",
+              "huyenref": "Yên Dũng",
+              "xaref": "Nham Sơn, Yên Lư",
+              "thuocsong": "Kênh Nham Biền",
+              "length": 585.7446204255,
+              "sodoan": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

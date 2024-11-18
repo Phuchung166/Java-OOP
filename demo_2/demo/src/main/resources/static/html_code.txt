@@ -1,0 +1,65 @@
+<ul>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_201" value="201"> Hà Giang</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_203" value="203"> Cao Bằng</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_205" value="205"> Lào Cai</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_303" value="303"> Sơn La</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_301" value="301"> Lai Châu</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_207" value="207"> Bắc Kạn</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_209" value="209"> Lạng Sơn</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_211" value="211"> Tuyên Quang</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_213" value="213"> Yên Bái</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_215" value="215"> Thái Nguyên</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_302" value="302"> Điện Biên</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_217" value="217"> Phú Thọ</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_104" value="104"> Vĩnh Phúc</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_221" value="221"> Bắc Giang</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_106" value="106"> Bắc Ninh</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_101" value="101"> TP. Hà Nội</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_225" value="225"> Quảng Ninh</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_107" value="107"> Hải Dương</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_103" value="103"> TP.Hải Phòng</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_305" value="305"> Hòa Bình</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_109" value="109"> Hưng Yên</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_111" value="111"> Hà Nam</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_115" value="115"> Thái Bình</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_113" value="113"> Nam Định</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_117" value="117"> Ninh Bình</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_401" value="401"> Thanh Hóa</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_403" value="403"> Nghệ An</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_405" value="405"> Hà Tĩnh</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_407" value="407"> Quảng Bình</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_409" value="409"> Quảng Trị</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_411" value="411"> Thừa Thiên-Huế</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_501" value="501"> TP. Đà Nẵng</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_503" value="503"> Quảng Nam</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_505" value="505"> Quảng Ngãi</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_601" value="601"> Kon Tum</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_603" value="603"> Gia Lai</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_507" value="507"> Bình Định</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_509" value="509"> Phú Yên</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_605" value="605"> Đắk Lắk</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_511" value="511"> Khánh Hòa</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_606" value="606"> Đắk Nông</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_607" value="607"> Lâm Đồng</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_705" value="705"> Ninh Thuận</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_707" value="707"> Bình Phước</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_709" value="709"> Tây Ninh</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_711" value="711"> Bình Dương</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_713" value="713"> Đồng Nai</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_715" value="715"> Bình Thuận</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_701" value="701"> TP. Hồ Chí Minh</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_801" value="801"> Long An</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_717" value="717"> Bà Rịa-Vũng Tàu</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_803" value="803"> Đồng Tháp</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_805" value="805"> An Giang</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_807" value="807"> Tiền Giang</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_809" value="809"> Vĩnh Long</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_811" value="811"> Bến Tre</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_815" value="815"> Cần Thơ</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_813" value="813"> Kiên Giang</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_817" value="817"> Trà Vinh</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_816" value="816"> Hậu Giang</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_819" value="819"> Sóc Trăng</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_821" value="821"> Bạc Liêu</label></li>
+<li><label><input type="checkbox" class="child-checkbox auto-submit-checkbox" name="cities" id="city_823" value="823"> Cà Mau</label></li>
+</ul>
